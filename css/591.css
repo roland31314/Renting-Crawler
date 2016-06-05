@@ -1,0 +1,436 @@
+body,table,td,th,tr{font-size:12px}.center,.loading,body{text-align:center}body{font-family:Verdana,Arial,Helvetica,"Sans Serif";background:#fff;color:#333}blockquote,body,button,dd,div,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,hr,input,legend,li,ol,p,pre,td,textarea,th,ul{margin:0;padding:0}.baidu_adv,.center{margin-left:auto;margin-right:auto}address,cite,dfn,em,var{font-style:normal}ol,ul{list-style:none}legend{color:#000}fieldset,img{border:0}button,input,select,textarea{font-size:100%}a:link,a:visited{color:#04D;text-decoration:none}a:hover{color:#f60;text-decoration:underline}a:active{color:#ba2636}.dis{display:block}.undis{display:none}.clear,.clearH10,.clearH13,.clearH5,.clearH6,.clearH9{clear:both;display:block;overflow:hidden}.clear{height:0}.clearH5{height:5px}.clearH6{height:6px}.clearH9{height:9px}.clearH10{height:10px}.clearH13{height:13px}.clearfix:after{content:".";clear:both;height:0;visibility:hidden;display:block}.clearfix{*zoom:1}.datalazyload{border:none;width:1px;height:1px;overflow:hidden}.hidden{display:none}.fs12{font-size:12px}.f13,.fs13{font-size:13px}.fs15{font-size:15px}.fc-gry{color:#666}.fc-org{color:#F60}.fc-red{color:red}.fc-gre{color:#56A236}.ft-lt{float:left}.ft-rt{float:right}.ft-wn{font-weight:400}.ft-wb{font-weight:700}.ft-fm-Ar{font-family:Arial,Helvetica,sans-serif}.ft-fm-Vd{font-family:Verdana,Arial,Helvetica}.loading{width:100%;padding:20px
+0}.baidu_adv{width:1000px;height:90px}.pageBar .first,.pageBar
+.last{cursor:default;outline:0;color:#333}.page-limit
+.pageBar{clear:both;font-family:SimSun;height:45px;padding-top:24px;text-align:center;width:auto}.pagination{margin-top:5px;height:25px;line-height:100%;left:50%;position:relative}.pagination
+.pageBar{padding-top:0;font-family:Verdana;left:-50%;position:relative}.pageBar .pageCurrent,.pageBar .pageNext,.pageBar .pageNum-form,.pageBar
+.pagePrev{background-color:#FFF;border:1px
+solid #CCC;font-size:13px;height:21px;line-height:21px;margin-right:5px;margin-left:0;min-width:14px;overflow:hidden;padding:0
+5px;text-align:center;text-decoration:none;vertical-align:middle;white-space:nowrap;display:inline-block}.pageBar .pageNext,.pageBar
+.pagePrev{background:url(//images.591.com.tw/index/public/global/page_bg.png) 5px 6px no-repeat;line-height:21px;padding-left:14px;width:auto}.pageBar
+.pageNext{background-position:48px -12px;padding-left:5px;padding-right:14px}.pageBar
+.first{background-position:5px -30px}.pageBar
+.last{background-position:48px -48px}.pageBar a:hover{border:1px
+solid #F50;text-decoration:none}.pageBar a.first:hover,.pageBar a.last:hover{border:1px
+solid #CCC;color:#333}.pageBar
+.pageCurrent{background-color:#FFEEE5;border:1px
+solid #F50;color:#F50;font-weight:700}.pageBar
+.pageSkip{color:#666;font-size:13px;padding-top:3px}.pageBar
+.pageBtn{background:url(//images.591.com.tw/index/public/global/page_btn.png) no-repeat;border:none;cursor:pointer;height:22px;margin-left:4px;width:41px}#filter{font-size:13px}.pageBar
+span.pageBreak{color:#404040;font-size:14px;padding-right:6px;width:20px}#gotoPage,#jumpto{border:1px
+solid #999;font-family:Arial;margin:0
+4px;padding:2px
+3px;text-align:center;width:24px}@charset "utf-8";#moveBox,#movePic,#rightContent{position:relative}#areaTip,#movePic{text-align:center}#moveBox,#photoViewer,#resetSh,.photoex .viewmore .carrot,.recomList,.recomList li,.recomList li .title,.seo-hr,.shInfo .right,.shInfo li,.shTypeList
+.hr{overflow:hidden}body{text-align:left;font-size:13px}#content{width:1000px;margin:0
+auto}#rightContent{width:790px;float:right}#leftMenu{width:190px;float:left}#searchMaps{border:1px
+solid #DEDEDE;margin-bottom:10px;display:none}#moveBox{height:344px}.cur_def{cursor:url(//images.591.com.tw/index/house/openhand.cur),move}.cur_move{cursor:url(//images.591.com.tw/index/house/closedhand.cur),move}#ctrlMap{padding:10px
+0 6px 22px;text-align:right}#ctrlMap a.hide,#ctrlMap
+a.show{background:url(//images.591.com.tw/index/search/minus.gif) no-repeat;font-size:15px;font-weight:700;margin-right:10px;padding-left:16px;text-decoration:none}#ctrlMap
+a.hide{background:url(//images.591.com.tw/index/search/plus.gif) no-repeat}#bottomWay,#topWay{background-position:right bottom;background-repeat:no-repeat;height:30px;margin-left:-8px;position:absolute;width:30px;z-index:2}#areaTip,.areaDot0,.areaDot1{height:25px;position:absolute}#topWay{background-image:url(//images.591.com.tw/index/house/upway.gif);right:10px;top:0}#bottomWay{background-image:url(//images.591.com.tw/index/house/downway.gif);bottom:0;right:10px}#areaTip{background-color:#F90;font-size:10pt;width:100px;line-height:24px;z-index:4}.areaDot0,.areaDot1{background:url(//images.591.com.tw/index/house/bighole.gif) 8px 7px no-repeat;width:26px;cursor:pointer;z-index:3}.areaDot0{background:url(//images.591.com.tw/index/house/smallhole.gif) 7px 6px no-repeat;width:19px;height:18px}.recomTitle{margin-bottom:10px;position:relative}.recomTitle
+a.buyRecom{background:url(//images.591.com.tw/index/house/newVersion/list.png) -294px -182px no-repeat;padding-left:10px;top:10px;right:0;position:absolute;text-decoration:underline}.recomTitle
+.recomTxt{left:35px;top:7px;font-size:15px;color:#4B4C4B;position:absolute}.recomList{width:790px;height:215px;margin-bottom:15px;position:relative}.recomList
+ul{left:0;position:absolute}.recomList
+li{width:200px;float:left}.recomList li .content em,.recomList
+li.right{float:right}.recomList li .recom-box{border:1px
+solid #CDCDCD;border-radius:5px;margin-right:10px}.recomList
+li.last{width:190px}.recomList li.last .recom-box{margin-right:0}.recomList li
+.title{background:#CAA771;height:4px;border-bottom:1px solid #CDCDCD}.recomList li
+.content{padding:5px
+8px 8px}.recomList li .content
+p{line-height:16px;padding-top:3px}.recomList li .content
+p.name{padding:8px
+0 3px}.recomList a.arrow-left,.recomList a.arrow-right{background:url(//images.591.com.tw/index/house/newVersion/arrow-v1.png) -19px 0 no-repeat;width:19px;height:39px;left:1px;top:85px;position:absolute;display:none}.recomList a.arrow-right{background-position:0 0;left:auto;right:1px}.recomList a.arrow-left:hover{background-position:-19px -39px}.recomList a.arrow-right:hover{background-position:0 -39px}.thisShL{background:#FEF7DA;border:1px
+solid #FCBC27;border-radius:3px;padding:10px
+230px 10px 115px;margin-bottom:15px;text-align:left;position:relative}.thisShL
+.thisShlLit{float:left;width:435px}.thisShL .thisShlLit
+a{background:url(//images.591.com.tw/index/realprice/s-close.png) 95% center no-repeat #FFF;border:1px
+solid #FCBC27;color:#333;padding:2px
+22px 2px 5px;margin-right:10px;margin-bottom:5px;float:left}.thisShL .thisShlLit a:hover{text-decoration:none}.thisShL
+.action{top:10px;right:5px;position:absolute}.thisShL
+strong{top:10px;left:10px;position:absolute}#saveShL{background:url(//images.591.com.tw/index/house/newVersion/list.png) -271px -330px no-repeat;padding-left:32px}.thisShL
+a.subscb{background:url(//images.591.com.tw/index/house/newVersion/list.png) -271px -358px no-repeat;padding-left:32px;margin-left:10px}.shTypeList{padding-top:31px;position:relative}.shTypeList
+.typeList{top:0;left:0;position:absolute}.typeList a
+i{background:url(//images.591.com.tw/index/house/tips1.png) no-repeat;width:29px;height:16px;position:absolute;top:-10px;left:50px}.shTypeList .typeList
+a{background-color:#F7F7F7;border:1px
+solid #C1C7C7;border-bottom:0;border-radius:5px 5px 0 0;padding:0
+15px;height:30px;line-height:30px;color:#363636;text-decoration:none;float:left}.shTypeList .typeList a:hover{background:#FDFEDF;background:-moz-linear-gradient(top,#FAFEFD,#FCFFB8);background:-webkit-gradient(linear,0 0,0 100%,from(#FAFEFD),to(#FCFFB8));color:#FF530E}.shTypeList .typeList
+a.select{background:#B3935A;background:-moz-linear-gradient(top,#C8A973,#B3935A);background:-webkit-gradient(linear,0 0,0 100%,from(#C8A973),to(#B3935A));border-color:#D6AF6A;font-weight:700;color:#FFF;height:31px}.shTypeList .typeList a
+.mapModel{background:url(//images.591.com.tw/index/house/newVersion/list.png) left -416px no-repeat;padding-left:20px;padding-bottom:5px}.shTypeList .typeList
+a.community{color:#F03}.shTypeList
+.hr{background:#B3935A;border:1px
+solid #D6AF6A;border-radius:0 5px 0 0;height:1px}.kindLink{background:#F6F6E3;border-bottom:1px solid #D7D7D4;height:28px}.kindLink li,.kindLink
+ul{float:left}.kindLink
+li{line-height:28px}.kindLink li
+a{border-right:1px solid #CAC9CA;padding:0
+13px}.kindLink li
+a.select{color:#f60}.shResult{border-bottom:1px solid #D6D7D6;padding:10px;position:relative}.shResult
+.count{font-size:21px;font-family:Arial,Helvetica,"Sans Serif",Verdana;padding:0
+5px}.orderList{top:12px;right:0;position:absolute}.shInfo,.shInfo .left,.shInfo
+li{position:relative}.orderList
+.title{line-height:21px;color:#818181;float:left}#cmOrder-select,#order-select,.orderList li,.orderList
+ul{float:left}.orderList
+li{background:#F7F7F0;background:-moz-linear-gradient(top,#FEFFFE,#ECEAE1);background:-webkit-gradient(linear,0 0,0 100%,from(#FEFFFE),to(#ECEAE1));margin-left:10px;padding:0
+5px;height:20px;line-height:20px;line-height:23px\9;border:1px
+solid #B0ABAA;overflow:hidden}.orderList
+li.select{background:#FBF6E6;background:-moz-linear-gradient(top,#FFF,#F8F0DC);background:-webkit-gradient(linear,0 0,0 100%,from(#FFF),to(#F8F0DC));border-color:#CD0200}.orderList a,.orderList a:visited{color:#373835;text-decoration:none}.orderList a.arrow,.orderList a.arrow-down,.orderList a.arrow-up{background:url(//images.591.com.tw/index/house/newVersion/order.png) right 2px no-repeat;background-position:right 3px\9;padding-right:12px}.orderList a.arrow-up{background-position:right -41px}.orderList a.arrow-down{background-position:right -87px}.orderList .txt-order li,.orderList .txt-order li
+a{background:0 0;padding:0}.orderList .txt-order
+li{border:0;margin:0}.orderList .txt-order li.select a.arrow,.orderList .txt-order li.select a.arrow-down{background:url(//images.591.com.tw/index/house/down.gif) 0 2px no-repeat;padding-left:12px}.orderList .txt-order li.select a.arrow-up{background:url(//images.591.com.tw/index/house/up.gif) 0 2px no-repeat}.shList{border-left:1px solid #FFF;border-right:1px solid #FFF;border-bottom:1px dashed #B3B5B5}.multicolor{background:#FFF6CF}.shHover{background:#F5F9FD;cursor:pointer;border:1px
+solid #BCD0FA;border-top:0}.shList
+a{text-decoration:underline}.shList a:visited{color:#2D85C4}.shList
+.shTitle{background:#F7F7EF;padding:8px
+10px;font-size:15px;border-bottom:1px solid #BFC9CA}.multicolor
+.shTitle{background:#FFF6CF}.shHover .shTitle
+a{color:#f60}.shList
+.typeTip{background:#F9FFF3;border:1px
+solid #F1B457;border-radius:5px;font-size:12px;padding:0
+3px;color:#F18711}.shInfo{height:145px}.shAction a,.shInfo
+a{text-decoration:none}.shInfo
+a.house_url{text-decoration:underline}.carrot a,.text-search-btn{text-decoration:none}.shInfo
+li{text-align:center;height:100%;float:left}.shInfo
+li.info{text-align:left;width:548px;line-height:normal}.shInfo .imgMore,.shInfo
+li.rentByArea{text-align:center}.shInfo
+li.price{width:95px}.shInfo li.price
+p{color:#979797}.shInfo li.price
+strong.down{background:url(//images.591.com.tw/index/house/discounted.png) left no-repeat;padding-left:15px}.shInfo li
+.oldprice{background:url(//images.591.com.tw/index/house/discounted-ico.png) no-repeat}.shInfo li .oldprice
+strong{font-size:13px}.shInfo
+li.area{width:80px}.shInfo li.area
+p{color:#979797;font-size:12px;line-height:21px}.shInfo
+li.pattern{width:55px}.shInfo li.pattern
+.isNew{background:url(//images.591.com.tw/index/house/date_new.gif) 50% no-repeat;height:40px}.shInfo li.area,.shInfo li.pattern,.shInfo
+li.price{padding-top:50px;height:96px}.shInfo .left,.shInfo
+.right{padding:15px
+0 0 10px;float:left}.shInfo
+.left{height:120px;width:132px}.shInfo
+.imgbd{border:1px
+solid #DDD;padding:1px;width:128px;height:92px;float:left}.shInfo
+.imgMore{height:25px;line-height:25px;width:132px}.shInfo
+.right{width:396px}.shInfo .right
+p{padding-bottom:7px;font-size:12px}.right
+p.title{padding-bottom:10px;font-size:15px}.carrot a,.minithumbs
+.viewmore{font-size:12px}.right
+p.options{padding-top:5px;padding-bottom:0}.right p.fc-gry{color:#7F807F}.right
+a.approve_pass{background:url(//images.591.com.tw/index/house/approve_pass.gif) 0 -2px no-repeat;color:grey;padding:3px
+0 3px 25px}.shInfo .rentTag,.shInfo
+.saleTag{background:url(//images.591.com.tw/index/house/newVersion/urgent-rent.png) no-repeat;height:59px;width:58px;left:5px;top:10px;position:absolute}.shInfo
+.saleTag{background:url(//images.591.com.tw/index/house/newVersion/urgent-sale.png) no-repeat}.shInfo
+.recomTag{border-radius:3px;background:#FA4E1F;font-size:12px;color:#FFF;padding:1px
+5px;line-height:15px;margin-left:5px}#photoViewer{background-color:#FFF;border:1px
+solid #BCCBC8;border-bottom:0;height:294px;padding:8px
+8px 0;position:absolute;width:544px;z-index:999}#photoMain{float:right}#mainphotoloader{left:345px;position:absolute;top:145px}#photoMainImg{border:1px
+solid #DDD;float:left;padding:1px}.minithumbs{float:left;width:138px}.photoex
+.viewmore{border:1px
+solid #ACF;float:left;height:20px;line-height:20px;margin-right:4px;padding-left:6px;width:124px}.photoex .viewmore
+.carrot{background-color:#F7F7FF;height:20px}.photoex .viewmore .carrot
+li{background:url(//images.591.com.tw/index/house/photolist.gif) -115px 6px no-repeat;margin-bottom:4px;padding-left:10px}.myInfo,.sh-info
+dl{margin-bottom:10px}.minithumb{background-color:#FFF;border:1px
+solid #DDD;float:left;height:60px;margin-right:4px;margin-top:4px;padding:1px;width:60px}.minithumbList a:hover
+.minithumb{border-color:#ACF}.shAction{padding:8px
+10px;position:relative;filter:alpha(opacity=30)}.shAction .link-list{opacity:.3}.shHover .link-list{opacity:1}.shAction .ysVisitor,.shHover
+.shAction{opacity:1;filter:alpha(opacity=100)}.qs,a.fav,a.map{background:url(//images.591.com.tw/index/house/newVersion/list.png) no-repeat;padding-left:16px;margin-right:20px}a.map{background-position:-204px -330px}a.fav{background-position:-203px -347px;padding-left:18px}.qs{background-position:-203px -364px;padding-left:20px}.ysVisitor{top:8px;right:10px;position:absolute}.sh-title{background:#FFAC13;background:-moz-linear-gradient(top,#FDBC17,#FF950F);background:-webkit-gradient(linear,0 0,0 100%,from(#FDBC17),to(#FF950F));-moz-box-shadow:0 2px 2px #E2E7E6;-webkit-box-shadow:0 2px 2px #E2E7E6;box-shadow:0 2px 2px #E2E7E6;border:1px
+solid #FE9E17;border-radius:5px 5px 0 0;font-size:15px;font-weight:700;color:#FFF;padding:5px
+10px;position:relative}#resetSh,.listModel{top:5px;position:absolute}#resetSh{background:#FEF7CE;border:1px
+solid #FCA120;border-radius:5px;font-size:13px;color:#524753;cursor:pointer;width:45px;height:21px;line-height:21px;right:10px}.sh-list{background:#F8F9F8;border:1px
+solid #C2C7C6;border-top:0;border-radius:0 0 5px 5px;padding:10px
+30px;line-height:22px}.myInfo
+a{color:#5B5C5B}.myInfo a
+em{color:#0043D7}.myInfo a:hover{color:#f60}.sh-info{padding-left:10px;padding-right:0}.sh-info dd,.sh-info
+dt{padding-left:20px}.sh-info dt,.sh-info
+dt.packup{background:url(//images.591.com.tw/index/house/newVersion/list.png) -287px -277px no-repeat;cursor:pointer;font-weight:700;color:#4E4F4E}.sh-info
+dt.packup{background-position:-287px -252px}.sh-info dl.pattern
+a{width:65px;display:inline-block}.sh-info dl.area a,.sh-info dl.direction label,.sh-info dl.fcicount a,.sh-info dl.houseage a,.sh-info dl.isclinch a,.sh-info dl.property a,.sh-info dl.shape label,.sh-info dl.unitprice
+a{min-width:75px;display:inline-block}.sh-info dl.land label,.sh-info dl.role
+label{width:85px;display:inline-block}.sh-info dl.sex
+a{width:70px;display:inline-block}.sh-info dl.life label,.sh-info dl.option label,.sh-info dl.other
+label{width:88px;display:inline-block}.sh-info dl
+.ckb{margin-right:3px;*margin-right:0;vertical-align:middle}.sh-info
+dd.long{padding-left:0;padding-top:5px}.sh-info dd
+a.select{color:#f60}.sh-info .sh-text{border:1px
+solid #DCDEE0;border-top-color:#ADADB0;height:20px;line-height:20px;width:40px;padding-left:5px}.text-search-btn{background:#F2F2F2;background:-moz-linear-gradient(top,#FFF,#E5E5E5);background:-webkit-gradient(linear,0 0,0 100%,from(#FFF),to(#E5E5E5));border:1px
+solid #C8C8C8;padding:0
+5px;height:20px;line-height:20px;color:#404040;display:inline-block;cursor:pointer}#area-search{width:auto}.sh-broker{background:#F8F9F8;border:1px
+solid #C2C7C6;border-radius:5px;margin-top:10px}.sh-broker
+.title{padding:7px
+10px;font-size:15px;font-weight:700;border-bottom:1px solid #C2C7C6}.sh-broker .title
+.more{font-size:13px;font-weight:400;float:right}.noDataImg,.noDataInfo,.sh-broker .listInfo .img,.sh-broker .listInfo .img a,.sh-broker .listInfo .list,.shTxList li,.shTxList
+ul{float:left}.sh-broker
+ul{padding:8px
+5px}.sh-broker
+li{border-bottom:1px dashed #DEDEDE;padding:10px
+0;width:100%;float:left}.sh-broker .listInfo
+.img{border:1px
+solid #CCCCCA;padding:1px;margin-left:5px}.sh-broker .listInfo
+.list{padding-left:10px}.sh-broker .listInfo .list
+p{line-height:18px}.seo-link p,.sh-broker .listInfo .list
+p.name{line-height:25px}.sh-broker .listInfo .list p.name
+a{padding:5px
+5px 5px 0}.sh-broker .listInfo .list p.name
+.ico{margin:0
+0 5px;width:20px;height:25px;line-height:25px;vertical-align:middle;background:url(//images.591.com.tw/index/house/approve_pass.gif) right 0 no-repeat;display:inline-table}.sh-broker .listInfo .no-border{border:0}.bottom-ad{width:1000px;margin:20px
+auto 0}.seo-hr{margin-top:20px;height:3px;background:#FD5703}.seo-link{background:#F3F4F3;border-bottom:1px solid #E0E1E0;margin:0
+auto;padding:10px
+0 20px 30px}.seo-link
+p{text-align:left;padding-top:5px}.seo-link a,.seo-link a:visited{margin-right:10px;color:#303130}.seo-link a:hover{color:#f60}.seo-link
+.br{padding-top:2px;text-indent:7em}.listModel{right:0}#imgModel a,#txtModel
+a{background:url(//images.591.com.tw/index/public/thumb/listview.gif) left -35px no-repeat;padding-left:20px;margin-left:15px;text-decoration:none}.recomInfo a,.shTxList li
+a{text-decoration:underline}#txtModel
+a{background-position:left -1px}#imgModel a.select,#txtModel
+a.select{background-position:left -52px;font-weight:700;color:#000}#txtModel
+a.select{background-position:left -18px}.shTxList{border-top:1px solid #E8E8E8}.shTxList
+*{font-size:12px}.shTxInfo,.shTxTitle{width:100%;height:36px;line-height:36px}.shTxInfo{height:33px;line-height:33px;border-bottom:1px dashed #E8E8E8}.shTxInfo a:visited{color:#2D85C4}.shTxList
+li.rs{width:100px;text-align:center}.shTxList
+li.address{padding-left:55px;width:245px}.shTxList .shTxInfo
+li.address{padding-left:0;width:340px}.shTxList li.area,.txt-order
+li.ord_area{width:100px;text-align:right}.shTxList li.price,.txt-order
+li.ord_price{width:85px;text-align:right}.shTxList li.visited,.txt-order
+li.ord_visited{width:75px;text-align:center}.shTxList
+li.update{width:63px;text-align:center}.txt-order li.ord_post,.txt-order
+li.ord_update{width:38px;text-align:center}.TodayTime{color:#F06}.YesTime{color:#008401}.OtherTime{color:#119393}.ImgStatus{color:red}span.DealEnd,span.DealEnd2{border:1px
+solid red;color:red;font-size:9pt;font-weight:700;margin-left:5px;padding-left:2px}span.DealEnd2{border:1px
+solid #23B22F;color:#23B22F}.noData{border-top:1px solid #DDD;text-align:center;padding-top:50px}.noDataImg{width:20%;text-align:right;padding-right:10px}.noDataInfo{text-align:left}.suggest{padding:15px
+0}.suggestInfo{border:1px
+solid #CCC;padding:0
+5px}.suggestInfo
+.title{padding:5px
+0;border-bottom:1px solid #CCC;color:#630;font-size:15px;font-weight:700}.suggestInfo
+.info{padding:10px}.suggestInfo .info
+p{line-height:30px}.suggestInfo .info p.sub-info{text-align:center;padding:20px
+0}#email-sub{background:url(//images.591.com.tw/index/public/global/email-btn.png) no-repeat;border:0;cursor:pointer;height:26px;width:102px}#sb-success{display:none;padding:20px
+30px}.sb-success{padding-left:35px}.sb-success-tip{background:url(//images.591.com.tw/index/public/global/midsuccess_prompt.gif) left no-repeat;height:25px;padding-top:10px}#rightContent
+.TotalRecord{float:right;line-height:21px;vertical-align:middlep}.recomInfo .info,.recomInfo li.recomShape .area,.recomInfo
+ul{float:left}#rightContent .TotalRecord
+.R{font-family:Arial,Verdana,Helvetica,"Sans Serif";font-size:21px;color:#f60;font-weight:700}.sh-leftAd{margin-top:10px}.recomInfo
+.info{background:url(//images.591.com.tw/index/house/newVersion/recom-bg.png) bottom no-repeat;padding:10px
+10px 17px}.recomInfo
+ul{background:#FFF;border:1px
+solid #C5C7C7;padding-top:10px;width:241px}.recomInfo
+li{padding:0
+10px 10px;line-height:21px}.recomInfo
+li.recomImg{padding-bottom:0;line-height:normal;position:relative}.recomInfo li.recomImg
+.recomIco{background:url(//images.591.com.tw/index/house/newVersion/urgent-recom-2.png) no-repeat;width:64px;height:64px;left:-2px;top:-12px;position:absolute}.recomInfo
+li.recomTitle{padding-top:5px;padding-bottom:5px;height:40px;margin:0}.community a,.community_icon{margin-right:20px}.recomInfo
+li.recomType{padding-bottom:2px;color:grey}.recomInfo
+li.recomShape{padding-bottom:8px}.recomInfo li.recomRole .time,.recomInfo li.recomShape
+.price{float:right}.recomInfo li.recomRole
+.time{color:grey}.recomInfo li.recomShape .price
+strong{font-size:15px}.recomInfo
+li.recomRole{border-top:1px dashed #C2C7C6;padding-bottom:0;line-height:30px}.list-rent-a,.list-sale-a{background:url(//images.591.com.tw/index/house/commu-list-button.jpg);height:35px;width:180px;display:block;color:#FFF;font-size:13px;font-style:normal;font-weight:700;text-decoration:none;line-height:35px;padding-left:10px}.list-rent-a{background:url(//images.591.com.tw/index/house/commu-list-button_rent.jpg)}.list-rent-a a,.list-sale-a a,.list-sale-a a:link{color:#fff}.hot-commu{font-size:13px;font-weight:400;margin-left:85px;position:absolute;left:25px;top:10px}.hot-commu
+a{margin-left:10px}.shComm{background:#F5F8E2;border:none;border-top:1px solid #E8A700;display:none;padding:5px
+10px}#smallList{width:790px}#smallList
+div.h2{width:500px}#smallList
+li.selected{background-color:#F5F9FD;border-color:#D8D8D8}#smallList
+li{border:1px
+dashed #fff;border-bottom:1px dashed #ccc;height:114px;padding:20px
+2px;cursor:pointer}#smallList .hot,#smallList
+.price{padding-top:25px;text-align:right;float:left}#smallList
+.info{float:left;width:400px}#smallList
+.price{width:120px;line-height:21px}#smallList
+.hot{width:80px;line-height:26px}#smallList
+.img{float:left;width:164px;padding-left:8px}#smallList .info
+h2{font-size:12pt;height:25px;line-height:24px;font-weight:400;font-family:Verdana,Arial,Helvetica,sans-serif}#smallList
+div.attr{padding-top:9px;width:336px;float:left;font-size:13px}#smallList
+.last_row{height:26px;line-height:26px}#smallList .last_row a
+span{color:#c00;font-size:11px}#smallList .last_row
+a.none{cursor:default;color:#999;text-decoration:none}#smallList .last_row a.none
+span{color:#999;font-size:11px}#smallList .last_row
+a{padding-left:15px;font-size:13px}#smallList .last_row
+a.ico_info{background:url(//images.591.com.tw/index/conmunity/info.png) 1px 5px no-repeat}#smallList .last_row
+a.ico_life{background:url(//images.591.com.tw/index/conmunity/life.png) 1px 5px no-repeat}#smallList .last_row
+a.ico_photo{background:url(//images.591.com.tw/index/conmunity/photo.png) 1px 5px no-repeat}#smallList .last_row
+a.ico_price{background:url(//images.591.com.tw/index/conmunity/list/comList_11.jpg) 1px 5px no-repeat}.community{border:1px
+solid #ccc;line-height:28px;margin-bottom:15px;display:none;position:relative}.community
+.f15{font-size:15px}.community_icon{margin-left:20px}.community_icon
+a{padding:1px
+0 1px 21px}.community
+.com_img{position:absolute;border:1px
+solid #ccc;right:0;top:20px}.com_icon{background:url(//images.591.com.tw/index/house/newList/community_icon.png) no-repeat}.com_detail_icon{background-position:0 -36px}.com_sale_icon{background-position:0 -54px}.com_rent_icon{background-position:0 0}.com_market_icon{background-position:0 -18px}body{font-size:13px}#marketBottom a.first,#marketBottom a.last,#marketBottom a.next,#marketBottom a.prev,.marketTypeed,div.selectRent,div.selectSale{background:url(//images.591.com.tw/index/index/home-bg-v2.gif) no-repeat}#buildSide{float:right;margin-top:11px;overflow:hidden;width:201px}#marketTitle{height:37px}div.selectSale{background-position:0 -519px}div.selectRent{background-position:0 -558px}#marketTitle
+h2{width:131px;float:left;text-align:center;line-height:37px;cursor:pointer}#marketTitle h2 a,#marketTitle h2 a:visited{font-size:15px;color:#333;font-weight:400;text-decoration:none}#marketTitle h2 a:hover{text-decoration:underline}#marketTitle h2.on a,#marketTitle h2.on a:visited{font-weight:700}#marketTitle h2.on a:hover{color:#f60}#marketContent{color:#333;height:226px;border:1px
+solid #c6c6c4;border-bottom:1px solid #e8e8e7;border-top:none;background:url(//images.591.com.tw/index/index/scale.gif) bottom;position:relative;z-index:5}.marketType{height:40px;padding-top:4px;background-color:#fff}#marketBottom{height:34px;border:1px
+solid #c6c6c4;border-top:none;background-color:#f1f1f1}#marketContent
+#unit{position:absolute;right:15px;top:37px}#marketContent
+span.numb{left:2px;bottom:0;position:absolute;background-color:#fff;font-family:Arial,Helvetica,sans-serif}#marketContent ul.columntab
+li{margin:auto;width:245px;height:188px;display:none}#marketContent ul.columntab
+li.selected{display:block}#marketContent ul.columntab
+li.loading{text-align:left;margin-top:80px;height:108px;display:block;font-size:13px;color:#666;margin-left:75px;width:170px;text-indent:25px;background:url(//images.591.com.tw/index/map/load_18x18.gif) no-repeat}#marketContent
+span.column{width:30px;background-color:#83C5E8;position:absolute;bottom:0;_bottom:-1px;display:block}#marketContent span.column
+em.numb{position:absolute;top:-16px;width:45px;left:-7px;font-style:normal;font-size:12px;text-align:center;font-family:Arial,Helvetica,sans-serif}#marketContent span.column
+em.area{position:absolute;bottom:-25px;left:-4px;width:40px;font-style:normal;text-align:center;font-size:13px;font-family:SimSun}.marketTypeOption li,.marketTypeed{text-align:left}#marketBottom{position:relative;z-index:4}#marketBottom a.first,#marketBottom a.last,#marketBottom a.next,#marketBottom
+a.prev{display:block;width:13px;height:20px;overflow:hidden;text-indent:-9999px;position:absolute}#marketBottom
+a.prev{top:7px;left:6px;background-position:-185px -280px}#marketBottom
+a.next{top:7px;right:6px;background-position:-227px -280px}#marketBottom
+a.first{background-position:-172px -280px;cursor:default}#marketBottom
+a.last{background-position:-214px -280px;cursor:default}#areaType,#rkindType,#skindType{float:left}.marketTypeed{float:left;width:97px;height:24px;line-height:24px;.padding-top:4px;.height:20px;.line-height:20px;overflow:hidden;padding-left:8px;font-size:13px;margin-top:2px;color:#333;cursor:pointer;margin-left:15px;display:inline;background-position:0 -332px;background-color:#fff}.marketTypeOption{z-index:9999;position:absolute;margin-top:25px;margin-left:16px;width:102px;background:#fff;border:1px
+solid #FC3;float:left;left:0}.marketTypeOption a,.marketTypeOption a:visited{display:block;height:22px;padding-left:7px;line-height:22px;color:#000;text-decoration:none;font-size:13px}.condition_links div.types_h2,.hidden{display:none}.marketTypeOption a:hover{color:#fff;background:#FC3;font-weight:700}#Menus_Community{background-position:0 -40px}#Menus_Community a,#Menus_Community a:hover{height:34px;line-height:34px;background:url(//images.591.com.tw/index/index/header-bg-v2.gif) 0 -80px no-repeat #FF7715;text-decoration:none;z-index:6;margin:-2px 1px 0 -1px}#Menus_Community a span,#Menus_Community a:hover
+span{background:url(//images.591.com.tw/index/index/header-bg-v2.gif) right -80px no-repeat;color:#fff;font-weight:700;font-size:15px;font-family:Arial;text-decoration:none;padding-left:9px;padding-top:0;height:28px}.condition_title,.containers{font-size:13px;line-height:24px;float:left}.condition_links{padding-bottom:2px}.condition_links
+#areas{margin-top:8px}.condition_links
+div.row{padding-top:1px;padding-bottom:3px}.condition_links
+div.search_row{padding-top:10px;padding-bottom:5px}.condition_title{color:#000;height:24px;width:54px;text-align:right}.containers{text-align:left}.condition_length{width:80px}.containers_length{width:870px}.containers span,.containers
+strong{margin-right:10px;margin-left:4px;height:24px;line-height:24px;display:inline-block;float:left}.containers
+.lockets{width:30px}.containers .arealists span,.containers .arealists
+strong{margin-left:4px;margin-right:8px;height:24px;line-height:24px;display:inline-block;float:left}.containers
+span{font-size:12px;color:#999}.containers
+strong{color:#f60;font-weight:700;font-family:SimSun}.containers strong
+em{font-size:12px;color:#999;clear:both;font-style:normal;font-weight:400;font-family:SimSun}.containers
+a{font-size:13px;font-family:SimSun}.containers .more,.containers
+.sub_more{float:left;display:block;width:80px;height:20px;border:1px
+solid #ccc;padding-left:22px;line-height:20px;background:url(//images.591.com.tw/index/build/more_ico.png) 6px 5px no-repeat;color:#333;cursor:pointer}.containers
+.up{background:url(//images.591.com.tw/index/build/more_up_ico.png) 6px 5px no-repeat}.containers
+div.more_area{clear:both;margin-left:44px;white-space:nowrap}.containers div.more_area span,.containers div.more_area
+strong{margin-right:0;width:76px;margin-left:4px;height:24px;line-height:24px;display:inline-block;float:left}.containers
+div.sub_area{clear:both;width:770px;border:1px
+solid #F39800;padding:2px;white-space:nowrap}.containers
+div.sub_more_area{width:855px;clear:both;white-space:nowrap}.containers{width:920px}.containers
+.arealists{float:left;white-space:nowrap;width:750px}#buildList,#buildList .title,#smallList{width:790px}#buildList
+div.top_bar{background:#FEF5E9;border-top:1px solid #FFC877;border-bottom:2px solid #FFAB00}#buildList
+.title{margin-top:0}#header
+.search_bar{float:none}#smallList
+li.selected{background-color:#FFF5D4;border-color:#D8D8D8}#smallList
+div.attr{font-size:13px;line-height:28px;text-align:left}.pageBar{clear:both;font-family:SimSun;height:45px;padding-top:24px;text-align:center}#buildList
+div.top_bar{clear:both;height:39px;line-height:39px;text-indent:8px}#buildList
+div.hots{border-left:2px solid #b5d0ee;border-right:2px solid #b5d0ee}div.top_bar
+div.text{float:left;font-size:13px}div.top_bar div.text
+strong{color:#eb6100;font-weight:700}div.top_bar div.text
+strong.red{color:red}div.top_bar
+div.sort_box{float:right;width:450px;text-align:right;padding-right:10px;height:25px;margin-top:9px}div.top_bar div.sort_box
+select{float:right;font-size:13px;height:22px}div.top_bar div.sort_box
+div.sorttxt{float:right;height:24px;line-height:21px;.line-height:25px;font-size:13px}#buildList div.sort_box a,#buildList div.sort_box a:visited{background:url(//images.591.com.tw/index/build/listOrder_bg.gif) no-repeat;color:#333;cursor:pointer;display:block;float:right;height:19px;line-height:19px;.line-height:24px;overflow:hidden;margin-left:8px;font-size:13px;padding:0
+23px 1px 2px}.nowCondition_left,.nowCondition_left2{line-height:30px;height:30px;float:left}#buildList div.sort_box a.sort_by_off,#buildList div.sort_box a:visited.sort_by_off{border:1px
+solid #ACACAC;background-position:right 0}#buildList div.sort_box a.sort_by_up,#buildList div.sort_box a:visited.sort_by_up{border:1px
+solid #C00;background-position:right -30px}#buildList div.sort_box a.sort_by_down,#buildList div.sort_box a:visited.sort_by_down{border:1px
+solid #C00;background-position:right -60px}#main{width:1000px;margin:0
+auto}.nowCondition_wrap{height:30px;border-top:1px solid #E2DFDF;background:#F1F1F1}.nowCondition_left{padding-left:15px}.nowCondition_wrap2{height:30px}.nowCondition_right{height:30px;padding-left:5px;float:left}.nowCondition_right
+a{background:url(//images.591.com.tw/index/realprice/s-close.png) 95% center no-repeat #FFF;border:1px
+solid #FCBC27;color:#333;float:left;margin-top:5px;margin-bottom:5px;margin-right:10px;padding:2px
+22px 2px 5px}.nowCondition_right a:hover{text-decoration:none}#buildList{width:790px;margin-top:10px;float:left;overflow:hidden}.comSearch_wrap{height:35px;border-top:1px solid #FFC877;border-bottom:2px solid #FFC877;padding-left:15px;background:#FEF5E9}#smallList
+div.info{float:left;width:360px}#smallList
+div.hot{padding-top:25px;width:80px;float:left;text-align:right;line-height:26px}#smallList
+div.hotsale_list{border:2px
+solid #b5d0ee;border-top:none;float:left;clear:both}#smallList div.hotsale_list
+div.hotsale{width:40px;height:40px;background:url(//images.591.com.tw/index/build/icon_hot_40.gif) no-repeat;float:right;margin-top:10px;margin-right:10px;_margin-right:5px;text-indent:-9999px;overflow:hidden}#smallList
+li{list-style:none;border:1px
+dashed #fff;height:114px;padding:20px
+2px;cursor:pointer}#smallList div.hotsale_list
+li{border:1px
+dashed #fff;border-bottom:1px dashed #ccc;height:114px;padding:20px
+2px;cursor:pointer;float:left;display:block;width:705px}#smallList div.hotsale_list li.prevselected,#smallList
+li.prevselected{border:1px
+dashed #fff;height:114px;padding:20px
+2px;cursor:pointer}#smallList li h2 a:visited{color:#2D85C4}#smallList
+li.selected{height:114px;padding:20px
+2px;cursor:pointer}#smallList div.hotsale_list
+li.selected{border:1px
+solid #C7E0F3;background-color:#F5F8FE;height:114px;padding:20px
+2px;cursor:pointer}#smallList li.selected h2 a,#smallList li.selected h2 a:visited{color:#f60}#smallList
+div.img{float:left;width:164px;padding-left:8px}#smallList div.img
+a.img{display:block;border:1px
+solid #ccc;width:149px;height:112px}#smallList div.img a.img:hover{border:1px
+solid #A0CAF5}#smallList
+div.info{line-height:20px}#smallList div.info
+h2{font-size:12pt;float:left;height:25px;line-height:24px;font-weight:400;font-family:Verdana,Arial,Helvetica,sans-serif}#smallList
+div.h2{width:530px;float:left}#smallList
+div.attr{padding-top:9px;width:360px;float:left}#smallList span.area_link a,#smallList span.area_link a:visited{color:#333}#smallList span.area_link a:hover{color:#f60}#smallList div.h2
+em{display:inline-block;float:left;width:41px;height:20px;font-size:12px;color:#fff;margin-left:10px;line-height:20px;text-align:center;font-style:normal;font-weight:400;background:url(//images.591.com.tw/index/build/types_bg.gif) no-repeat;overflow:hidden;margin-top:2px}#smallList div.h2
+em.n{background-position:0 -20px}#smallList div.h2
+em.p{background-position:0 -40px}#smallList div.h2
+em.sell_status{background:0 0}#smallList div.h2 em.sell_status
+img{margin-top:2px}#smallList div.h2
+a.discount{display:inline-block;float:left;width:58px;height:19px;margin-left:5px;background:url(//images.591.com.tw/index/build/9icon.gif) bottom no-repeat}#smallList div.h2 .offer-info{margin-left:5px;float:left}#smallList div.h2 .offer-info
+.left{background:url(//images.591.com.tw/index/build/offer-info-left.png) no-repeat;width:9px;height:22px;float:left}#smallList div.h2 .offer-info
+a{border-top:1px solid #FFBD8C;border-bottom:1px solid #FFBD8C;background-color:#FFF7DE;color:#FF6300;font-size:12px;line-height:19px;float:left}#smallList div.h2 .offer-info
+.right{background:url(//images.591.com.tw/index/build/offer-info-right.png) no-repeat;width:9px;height:22px;float:left}#smallList
+div.last_row{height:26px;line-height:26px}#smallList div.last_row a
+span{color:#c00;font-size:11px}#smallList div.last_row
+a.none{cursor:default;color:#999;text-decoration:none}#smallList div.last_row a.none
+span{color:#999;font-size:11px}#smallList
+div.price{float:right;margin-right:20px;text-align:right;padding-top:25px;width:200px}#smallList div.recom-shop{float:right;margin-right:10px;margin-top:5px}#smallList div.recom-shop
+img{border:1px
+solid #ccc}#photoList .area span.un,#smallList .price
+span.un{font-size:14px;font-family:simsun;color:#f60}#smallList div.price
+strong{color:#f60;font-size:17px;font-weight:700}#smallList
+div.viewnum{width:70px;float:left;text-align:right;font-size:13px;padding-top:25px}#smallList
+a.street{padding-left:22px;padding-right:10px;background:url(//images.591.com.tw/index/build/smallList_look.gif) 5px 2px no-repeat;.background-position:5px 0}#smallList
+a.conc{padding-left:18px;background:url(//images.591.com.tw/index/build/conc_ico.gif) 5px 2px no-repeat;.background-position:5px 0}#smallList div.last_row
+a.telico{padding-left:14px;background:url(//images.591.com.tw/index/build/tel_ico.gif) 0 5px no-repeat;*background-position:0 4px}#smallList div.last_row
+iframe{display:block;float:left;width:120px;height:21px;margin-top:4px;border:none;overflow:hidden}#smallList
+div.house_price{width:160px;height:80px;float:right;border-left:1px solid #E4E4E4;padding:15px
+20px}#smallList div.house_price
+dl{height:26px;line-height:26px}#smallList div.house_price
+dt{float:left}#smallList div.house_price
+dd{float:right}.condition_links{margin-top:0;padding:10px
+0 2px;border:none}.condition_links
+#areas{margin:0}.position_wrap{border:1px
+solid #E1E1E1}.position{height:30px;line-height:30px;border-bottom:1px solid #E2DFDF;background:#F1F1F1;padding-left:15px}.subnav_border{height:40px;border-bottom:1px solid #E1E1E1;position:relative}.moreCate,.subnav{float:left;position:absolute;height:20px;line-height:20px}.subnav{padding:5px
+15px 5px 35px;font-size:15px;font-weight:700;border-top:2px solid #FF5804;border-left:1px solid #E1E1E1;border-right:1px solid #E1E1E1;background:url(//images.591.com.tw/index/map/ico-location.png) 20px 5px no-repeat #fff;top:10px;left:15px}.unitPrice{width:50px;height:20px;line-height:20px}.moreCate{background:url(//images.591.com.tw/index/newFurniture/list_03.jpg) 5px center no-repeat;border:1px
+solid #BCBCBC;cursor:pointer;display:inline-block;right:30px;top:0;margin-top:3px;padding-left:20px;text-align:center;width:80px}.sort{margin-right:5px;float:right}.sort
+a{background:#F8F8F8;background:-moz-linear-gradient(top,#FFF,#F2F2F2);background:-webkit-gradient(linear,0 0,0 100%,from(#FFF),to(#F2F2F2));border:1px
+solid #AFAFAF;padding:3px
+20px 3px 10px;margin-right:8px;color:#333;position:relative}.sort a:hover{color:#333;text-decoration:none}.sort
+a.current{background:#F8F8F8;background:-moz-linear-gradient(top,#FFF,#FAEBEB);background:-webkit-gradient(linear,0 0,0 100%,from(#FFF),to(#FAEBEB));border-color:#DE8080}.sort a
+b{background:url(//images.591.com.tw/index/conmunity/list/comList_13.jpg) center no-repeat #F8F8F8;width:9px;height:12px;top:5px;right:5px;position:absolute}.sort a.asc b,.sort a.desc
+b{background:url(//images.591.com.tw/index/house/newVersion/order.png) right -88px no-repeat;width:11px;height:13px;margin-left:3px}.sort a.asc
+b{background:url(//images.591.com.tw/index/house/newVersion/order.png) right -43px no-repeat}.sort
+a.first{padding:3px
+10px}.housePrice_wrap{border:1px
+solid #E4E4E4}.housePrice_wrap
+dl{height:30px;line-height:30px;background:#F8F8F8;border-bottom:1px solid #E4E4E4}.housePrice_wrap dl
+dt{height:30px;float:left;padding-left:10px;color:#4A4A4A}.housePrice_wrap dl
+dd{height:30px;float:right;padding-right:10px;color:#7F7F7F}.txtSelect{background:url(//images.591.com.tw/index/public/global/sel_bg_new.png) no-repeat rgba(0,0,0,0);border:0;cursor:pointer;float:left;height:26px;line-height:26px;padding-left:5px;text-align:left;width:80px;z-index:100}#sale-market .dropmenu-list{background:#FFF;border:2px
+solid #F77D2D;float:left;left:0;padding:1px;position:absolute;top:26px;z-index:9999;display:none}#sale-market .dropmenu-list a,.dropmenu-list a:visited{color:#555;display:block;font-size:13px;height:22px;line-height:22px;overflow:hidden;padding-left:5px;text-decoration:none}#sale-market .dropmenu-list a:hover{background-color:#FCE1B3;color:#FF4200}.market_title{line-height:25px;position:relative;z-index:10}.meanText{padding:10px
+0 0;line-height:25px}.search_bar{margin:6px
+0 0 30px;float:left}div.top_bar
+div.text{margin-left:15px;width:auto}.fmf_search{height:36px;width:523px;position:absolute;top:50px;left:280px;background-color:#fff}.fmf_search_input{height:28px;line-height:28px;border:1px
+solid #ccc}.fmf_search_input:focus{border:1px
+solid #f36f20}.fmf_search input.fmf_search_input,.full_search
+input.full_search_input{width:387px;display:inline;padding:3px
+30px 3px 5px;-webkit-apperance:none;font-size:13px}.full_search
+input.full_search_input{height:30px;line-height:30px}:focus{outline:0}.fmf_search_btn{position:absolute;width:125px;height:36px;line-height:36px;border:0;background-color:#f36f20;right:-1px;top:0;text-align:center;color:#fff;font-size:15px;font-weight:700;cursor:pointer}.containers
+.select{color:#f60;font-weight:700}.orderList{position:absolute;right:10px;top:12px}.price .rate,.top_bar{position:relative}.orderList
+.title{color:#818181;float:left;line-height:21px}#cmOrder-select,#order-select,.orderList li,.orderList
+ul{float:left}.orderList
+li{background:-moz-linear-gradient(center top ,#fefffe,#eceae1) rgba(0,0,0,0);border:1px
+solid #b0abaa;height:20px;line-height:20px;margin-left:10px;overflow:hidden;padding:0
+5px}.orderList
+li.select{background:-moz-linear-gradient(center top ,#fff,#f8f0dc) rgba(0,0,0,0);border-color:#cd0200}.orderList a,.orderList a:visited{color:#373835;text-decoration:none}.orderList a.arrow,.orderList a.arrow-down,.orderList a.arrow-up{background:url(//images.591.com.tw/index/house/newVersion/order.png) right 2px no-repeat rgba(0,0,0,0);padding-right:12px}.orderList a.arrow-up{background-position:right -41px}.orderList a.arrow-down{background-position:right -87px}.orderList .txt-order li,.orderList .txt-order li
+a{background:rgba(0,0,0,0);padding:0}.orderList .txt-order
+li{border:0;margin:0}.orderList .txt-order li.select a.arrow,.orderList .txt-order li.select a.arrow-down{background:url(//images.591.com.tw/index/house/down.gif) 0 2px no-repeat rgba(0,0,0,0);padding-left:12px}.orderList .txt-order li.select a.arrow-up{background:url(//images.591.com.tw/index/house/up.gif) 0 2px no-repeat rgba(0,0,0,0)}#order-select{height:22px}#sh_price{padding:3px
+7px;cursor:pointer}#communityArea,#communityArea
+.arealists{display:none}#nolimit{display:inline-block;float:left;height:24px;line-height:24px;margin-left:4px;margin-right:10px}.chart_load{height:100px;width:100%;padding-top:50px;text-align:center}.tools_boxs{border:1px
+solid #E4E4E4;margin-bottom:20px}.tools_boxs
+.content{padding:10px
+0 10px 10px}.tools_boxs .content
+li{margin-right:20px;*margin-right:16px;display:inline-block;*zoom:1;float:left;word-break:keep-all;margin-top:5px}.tools_boxs .content li
+a{padding-left:20px;display:block;height:21px;line-height:21px;margin-top:3px;background:url(//images.591.com.tw/index/newCommunity/tips.png) no-repeat;color:#353535}.tools_boxs .content li
+a.valuation{background-position:0 0}.tools_boxs .content li
+a.manual{background-position:0 -21px}.tools_boxs .content li
+a.indenture{background-position:0 -42px}.tools_boxs .content li
+a.draw{background-position:0 -63px}.tools_boxs .content li
+a.market{background-position:0 -84px}.tools_boxs .content li
+a.loan{background-position:0 -105px}.tools_boxs .content li
+a.assess{background-position:0 -126px}.tools_boxs .content li
+a.rate{background-position:0 -147px}.tools_boxs .content li a:hover{text-decoration:underline;color:#f60}.house-tabs
+span{border:1px
+solid #a48bf1;display:inline-block;*zoom:1;height:21px;background:url(//images.591.com.tw/index/map/community-icon.png) left top no-repeat;padding-left:25px;line-height:21px;padding-right:5px;color:#666;margin-right:5px}.house-tabs span.near-school{background-position:0 -21px;border:1px
+solid #4fa6ff}.price
+.n2{color:#999;text-align:center;line-height:36px}.price
+.rate{font:700 13px/15px Impact;top:8px;right:30px}.protect_phone{background:url(//images.591.com.tw/index/newCommunity/tel3.png) left bottom no-repeat;padding-left:20px;color:#555!important;margin-left:20px;text-align:left;float:right;font-weight:700;margin-top:15px;margin-right:20px}.protect_phone
+i{font-style:normal;font-size:13px;padding:5px}.hotCommunityBox{margin:10px
+auto;border:1px
+solid #E4E4E4}.hotCommunityBox
+dl{height:30px;line-height:30px;background:#F8F8F8;border-bottom:1px solid #E4E4E4}.hotCommunityBox dl
+dt{height:30px;float:left;padding-left:12px;color:#4A4A4A}.hotCommunityBox dl
+dd{height:30px;float:right;padding-right:8px;color:#7F7F7F;margin-top:2px}#hotCommunityList .dropmenu-list{background:#FFF;border:2px
+solid #F77D2D;float:left;left:0;padding:1px;position:absolute;top:26px;z-index:9999;display:none}#hotCommunityList .dropmenu-list a,.dropmenu-list a:visited{color:#555;display:block;font-size:13px;height:22px;line-height:22px;overflow:hidden;padding-left:5px;text-decoration:none}#hotCommunityList .dropmenu-list a:hover{background-color:#FCE1B3;color:#FF4200}.hotCommunityBox
+.hotCommunityList{height:285px}.hotCommunityBox .hotCommunityList ul
+li{margin:14px;line-height:27px;color:#666}.hotCommunityBox .hotCommunityList ul li
+.communityName{float:left;width:85px;height:27px;text-align:left;overflow:hidden}.hotCommunityBox .hotCommunityList ul li
+.areaAmount{float:right;height:27px;text-align:right}.hotCommunityBox .hotCommunityList ul li .areaAmount
+strong{color:#ff6504;font-weight:400;padding-right:5px}.hotCommunityBox .hotCommunityList ul li .areaAmount
+.increase{background:url(//images.591.com.tw/index/newCommunity/increase.png) no-repeat;display:inline-block;width:7px;height:12px;position:relative;top:2px;left:5px}.hotCommunityBox .hotCommunityList ul li .areaAmount
+.reduce{background:url(//images.591.com.tw/index/newCommunity/reduce.png) no-repeat;display:inline-block;width:7px;height:12px;position:relative;top:2px;left:5px}.otherHouse{line-height:34px;height:34px;text-align:left;border-top:1px solid #f2f2f2;padding-left:10px}.otherHouse
+a{color:#666}.otherHouse a:hover,.otherHouse span:hover{text-decoration:underline;color:#f60}.otherHouse
+span{display:block;float:left;height:34px;overflow:hidden}.otherHouse
+.w300{width:300px;color:#04D}.otherHouse
+.w100{width:100px}.otherHouse
+.w130{width:130px}.otherHouse
+.w80{width:80px}.otherHouse
+.w60{width:60px}.houseInfoBox{border-bottom:1px dashed #ccc}.communityBox
+.houseInfoBox{border:0}

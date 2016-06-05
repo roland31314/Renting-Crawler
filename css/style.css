@@ -1,0 +1,13 @@
+.option{
+  border: 1px solid gray;
+  padding: 10px;
+  margin: 10px;
+}
+
+.option .option-block{
+  margin-bottom: 10px;
+}
+
+.btn-container{
+  margin: 10px;
+}

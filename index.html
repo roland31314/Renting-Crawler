@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>我要租屋</title>
+    <link type="text/css" rel="stylesheet" href="css/591.css">
+    <link type="text/css" rel="stylesheet" href="css/jquery-ui.min.css">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    
+    <div class="option">
+      <div class="option-block">
+        <lable>價錢範圍</lable>
+        <input id="price_start" type="text" value="0"/>
+        <lable>~</lable>
+        <input id="price_end" type="text" value="15000"/>
+      </div>
+      
+      <div class="option-block">
+        <lable>坪數範圍</lable>
+        <input id="space_start" type="text" value="20"/>
+        <lable>~</lable>
+        <input id="space_end" type="text" value="50"/>
+      </div>
+      
+      <div class="option-block">
+        <lable>找幾頁資料</lable>
+        <input id="page" type="text" value="1"/>
+      </div>
+      
+      <div class="option-block">
+        <lable>多久找一次</lable>
+        <input id="loop_time" type="text" value="60"/>
+      </div>
+    </div>
+    
+    <div class="btn-container">
+      <button id="find">找一次</button>
+      <button id="find_loop">一直找</button>
+      <button id="looked">這些都看過了</button>
+      <button id="reset">重設</button>
+    </div>
+    
+    <div id="list-container">
+      <ul>
+        <li><a href="#591_new_list">New</a></li>
+        <li><a href="#591_old_list">Old</a></li>
+      </ul>
+      
+      <div id="591_new_list"></div>
+      <div id="591_old_list"></div>
+    </div>
+  </body>
+
+  <script>
+    // You can also require other files to run in this process
+    require('./renderer.js')
+  </script>
+</html>
