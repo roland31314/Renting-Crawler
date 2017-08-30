@@ -8,6 +8,8 @@ npm install && npm start
 ### Bulid
 
 ```bash
-npm install electron-packager -g
-electron-packager . --al
+// npm install electron-packager -g
+// electron-packager . --all
+npm run dist
 ```
+
